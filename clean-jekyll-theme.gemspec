@@ -9,9 +9,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/siddhantgoel/clean-jekyll-theme"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f|
-      f.match(%r{^(_layouts|_includes|_sass|assets|LICENSE|README)/i})
-  }
-
+  spec.files         = `git ls-files -z`.split("\x0")
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
