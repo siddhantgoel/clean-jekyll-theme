@@ -26,13 +26,11 @@
                 </div>
 
                 <div class="navigation-entries">
-                    <ul>
-                        {% for entry in site.data.navigation %}
-                            <li>
-                                <a href="{{ entry.url }}">{{ entry.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    {% for entry in site.data.navigation %}
+                        <a href="{{ entry.url }}" class="navigation-entry">
+                            {{ entry.title }}
+                        </a>
+                    {% endfor %}
                 </div>
             </div>
 
