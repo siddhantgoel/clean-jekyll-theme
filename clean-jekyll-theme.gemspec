@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
       f.match(%r{^(_layouts|_includes|_sass|assets|LICENSE|README)/i})
   }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.3.0"
+  spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
