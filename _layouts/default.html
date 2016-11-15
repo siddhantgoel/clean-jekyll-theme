@@ -20,8 +20,24 @@
     </head>
 
     <body>
-        <div class="content">
-            {{ content }}
+        <div class="body">
+            <div class="navigation">
+                <div class="navigation-title">
+                    {{ site.title }}
+                </div>
+
+                <div class="navigation-entries">
+                    {% for entry in site.data.navigation %}
+                        <li>
+                            <a href="{{ entry.url }}">{{ entry.title }}</a>
+                        </li>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="content">
+                {{ content }}
+            </div>
         </div>
     </body>
 </html>
