@@ -23,15 +23,17 @@
         <div class="body">
             <div class="navigation">
                 <div class="navigation-title">
-                    {{ site.title }}
+                    <h1>{{ site.title }}</h1>
                 </div>
 
                 <div class="navigation-entries">
-                    {% for entry in site.data.navigation %}
-                        <li>
-                            <a href="{{ entry.url }}">{{ entry.title }}</a>
-                        </li>
-                    {% endfor %}
+                    <ul>
+                        {% for entry in site.data.navigation %}
+                            <li>
+                                <a href="{{ entry.url }}">{{ entry.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
 
