@@ -1,28 +1,3 @@
-body {
-    font-family: Inconsolata;
-    justify-content: center;
-    -ms-justify-content: center;
-    -webkit-justify-content: center;
-    width: 50%;
-}
-
-.navigation {
-    display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    align-items: center;
-
-    flex-direction: row;
-}
-
-.navigation-title {
-    align-self: flex-start;
-}
-
-.navigation-entries {
-    align-self: flex-end;
+html {
+    font-family: 'Inconsolata', monospace;
 }

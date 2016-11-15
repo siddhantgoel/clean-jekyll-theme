@@ -13,30 +13,33 @@
 
         <meta name="description" content="{{ site.description }}">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+        <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css">
 
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     </head>
 
     <body>
-        <div class="body">
-            <div class="navigation">
-                <div class="navigation-title">
+        <div class="max-width-4 mx-auto">
+            <div class="clearfix">
+                <div class="col col-6">
                     <h1>{{ site.title }}</h1>
                 </div>
 
-                <div class="navigation-entries">
-                    {% for entry in site.data.navigation %}
-                        <a href="{{ entry.url }}" class="navigation-entry">
-                            {{ entry.title }}
-                        </a>
-                    {% endfor %}
+                <div class="col col-6">
+                    <ul class="list-reset">
+                        {% for entry in site.data.navigation %}
+                            <li class="inline-block mr1">
+                                <a href="{{ entry.url }}">
+                                    {{ entry.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
 
-            <div class="content">
-                {{ content }}
-            </div>
+            {{ content }}
         </div>
     </body>
 </html>
