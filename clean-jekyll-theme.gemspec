@@ -4,8 +4,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Siddhant Goel"]
   spec.email         = ["siddhantgoel@gmail.com"]
 
-  spec.summary       = "A clean theme for Jekyll"
-  spec.description   = "A clean theme for Jekyll"
+  spec.summary       = "A clean theme for Jekyll based on Basscss"
+  spec.description   = "A clean theme for Jekyll based on Basscss"
   spec.homepage      = "https://github.com/siddhantgoel/clean-jekyll-theme"
   spec.license       = "MIT"
 
