@@ -1,0 +1,17 @@
+body {
+    font-family: Inconsolata;
+}
+
+.content {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    max-width: 50%;
+}
+
+.page {
+    max-width: 50%;
+}
