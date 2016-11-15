@@ -1,12 +1,22 @@
 body {
     font-family: Inconsolata;
+    justify-content: center;
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
+    width: 50%;
 }
 
-.body {
-    display: flexbox;
+.navigation {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
     align-items: center;
-    justify-content: center;
-    max-width: 50%;
+
+    flex-direction: row;
 }
 
 .navigation-title {
