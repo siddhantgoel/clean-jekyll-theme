@@ -2,16 +2,17 @@ body {
     font-family: Inconsolata;
 }
 
-.content {
+.body {
     display: flexbox;
     align-items: center;
     justify-content: center;
-}
-
-.post {
     max-width: 50%;
 }
 
-.page {
-    max-width: 50%;
+.navigation-title {
+    align-self: flex-start;
+}
+
+.navigation-entries {
+    align-self: flex-end;
 }
