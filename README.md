@@ -2,6 +2,8 @@
 
 A Jekyll theme that tries to be as clean as possible, and uses [Basscss](http://basscss.com/) underneath.
 
+![Screenshot](https://raw.githubusercontent.com/siddhantgoel/clean-jekyll-theme/master/screenshot.png)
+
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:
