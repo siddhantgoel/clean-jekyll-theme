@@ -1,2 +1,8 @@
 - title: about
   url: /about
+
+- title: github
+  url: https://github.com/johndoe
+
+- title: twitter
+  url: https://twitter.com/johndoe

@@ -1,0 +1,16 @@
+title: John Doe
+name: John Doe
+description: Site description goes here.
+baseurl: ""
+url: ""
+github_username:  johndoe
+permalink: /posts/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+theme: clean-jekyll-theme
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
