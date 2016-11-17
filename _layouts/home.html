@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<div class="clearfix">
-    <div class="col-6 px6 mx-auto">
-        <ul class="list-reset">
-            {% for post in site.posts %}
-            <li>
+<ul class="list-reset">
+    {% for post in site.posts %}
+    <li>
+        <div class="clearfix">
+            <div class="col col-6 right-align pr1">
                 <span>{{ post.date | date: '%d %b, %Y' }}</span>
-                -
+            </div>
+            <div class="col col-6 left-align pl1">
                 <a href="{{ post.url }}">
                     {{ post.title }}
                 </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
