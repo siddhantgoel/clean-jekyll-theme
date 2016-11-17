@@ -7,6 +7,6 @@ a.site-title {
     text-decoration: none;
 }
 
-a:visited {
-    color: blue;
+a {
+    color: #3104b4;
 }
