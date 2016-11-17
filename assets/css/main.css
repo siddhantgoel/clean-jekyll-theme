@@ -6,3 +6,7 @@ html {
 a.site-title {
     text-decoration: none;
 }
+
+a:visited {
+    color: blue;
+}
