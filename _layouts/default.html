@@ -23,7 +23,11 @@
         <div class="max-width-3 mx-auto">
             <div class="clearfix">
                 <div class="col col-6">
-                    <h1>{{ site.title }}</h1>
+                    <h1>
+                        <a href="/" class="site-title">
+                            {{ site.title }}
+                        </a>
+                    </h1>
                 </div>
 
                 <div class="col col-6">
@@ -42,14 +46,6 @@
             <hr>
 
             {{ content }}
-
-            <hr>
-
-            <div class="col col-12">
-                <p class="center">
-                    <a href="/">Home</a>
-                </p>
-            </div>
         </div>
     </body>
 </html>
