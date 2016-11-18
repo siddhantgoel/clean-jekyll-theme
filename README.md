@@ -1,5 +1,7 @@
 # clean-jekyll-theme
 
+[![Gem Version](https://badge.fury.io/rb/clean-jekyll-theme.svg)](https://badge.fury.io/rb/clean-jekyll-theme)
+
 A Jekyll theme that tries to be as clean as possible, and uses [Basscss](http://basscss.com/) underneath.
 
 ## Screenshot
