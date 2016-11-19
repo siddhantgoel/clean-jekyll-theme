@@ -13,7 +13,7 @@
 
         <meta name="description" content="{{ site.description }}">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css">
 
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -34,7 +34,7 @@
                     <ul class="list-reset right-align">
                         {% for entry in site.data.navigation %}
                             <li class="inline-block mr1">
-                                <a href="{{ entry.url }}">
+                                <a href="{{ entry.url }}" class="navigation-item">
                                     {{ entry.title }}
                                 </a>
                             </li>
@@ -43,11 +43,9 @@
                 </div>
             </div>
 
-            <hr>
-
-            {{ content }}
-
-            <hr>
+            <div class="border-top">
+                {{ content }}
+            </div>
         </div>
     </body>
 </html>

@@ -1,12 +1,27 @@
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a {
+    color: #000000;
 }
 
 a.site-title {
     text-decoration: none;
 }
 
-a {
-    color: #3104b4;
+.site-title {
+    color: #086788;
+}
+
+a.navigation-item {
+    text-decoration: none;
+}
+
+.navigation-item {
+    color: #000000;
+    border-bottom: 2px solid #f0c808;
 }
