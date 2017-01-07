@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css">
 
-        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
     </head>
 
     <body>
@@ -24,7 +24,7 @@
             <div class="clearfix">
                 <div class="col col-6">
                     <h1>
-                        <a href="/" class="site-title">
+                        <a href="{{ '/' | relative_url }}" class="site-title">
                             {{ site.title }}
                         </a>
                     </h1>
@@ -34,7 +34,7 @@
                     <ul class="list-reset right-align">
                         {% for entry in site.data.navigation %}
                             <li class="inline-block mr1">
-                                <a href="{{ entry.url }}" class="navigation-item">
+                                <a href="{{ entry.url | relative_url }}" class="navigation-item">
                                     {{ entry.title }}
                                 </a>
                             </li>

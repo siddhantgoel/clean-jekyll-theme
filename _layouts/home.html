@@ -10,7 +10,7 @@ layout: default
                 <span>{{ post.date | date: '%d %b, %Y' }}</span>
             </div>
             <div class="col col-6 left-align pl1">
-                <a href="{{ post.url }}">
+                <a href="{{ post.url | relative_url }}">
                     {{ post.title }}
                 </a>
             </div>
