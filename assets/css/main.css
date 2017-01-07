@@ -1,5 +1,5 @@
 html {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     background-color: #ffffff;
     color: #000000;
@@ -10,7 +10,7 @@ a {
 }
 
 code {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Source Code Pro', monospace;
 }
 
 a.site-title {
