@@ -34,7 +34,7 @@
                     <ul class="list-reset right-align">
                         {% for entry in site.data.navigation %}
                             <li class="inline-block mr1">
-                                <a href="{{ entry.url | relative_url }}" class="navigation-item">
+                                <a href="{{ entry.url | header_link }}" class="navigation-item">
                                     {{ entry.title }}
                                 </a>
                             </li>
