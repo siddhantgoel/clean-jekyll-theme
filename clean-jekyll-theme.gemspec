@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "clean-jekyll-theme"
-  spec.version       = "0.8.0"
+  spec.version       = "0.8.1"
   spec.authors       = ["Siddhant Goel"]
   spec.email         = ["siddhantgoel@gmail.com"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f|
-      f.match(/(_data|_includes|_layouts|_sass|assets|LICENSE|README)/)
+      f.match(/(_data|_includes|_layouts|_plugins|_sass|assets|LICENSE|README)/)
   }
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 end
