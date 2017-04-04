@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "clean-jekyll-theme"
-  spec.version       = "0.8.1"
+  spec.version       = "0.9.1"
   spec.authors       = ["Siddhant Goel"]
   spec.email         = ["siddhantgoel@gmail.com"]
 
