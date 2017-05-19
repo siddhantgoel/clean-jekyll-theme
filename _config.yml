@@ -1,16 +1,25 @@
 title: John Doe
 name: John Doe
 description: Site description goes here.
+permalink: /posts/:year/:month/:day/:title/
+
 baseurl: "/clean-jekyll-theme"
 url: ""
+
 github_username:  johndoe
-permalink: /posts/:year/:month/:day/:title/
+
+social:
+    name: John Doe
+    links:
+        - https://twitter.com/johndoe
+        - https://github.com/johndoe
 
 # Build settings
 markdown: kramdown
 theme: clean-jekyll-theme
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
