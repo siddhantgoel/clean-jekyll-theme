@@ -10,10 +10,15 @@ A Jekyll theme that tries to be as clean as possible, and uses [Basscss](http://
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+Add the following lines to your Jekyll site's Gemfile:
 
 ```ruby
 gem "clean-jekyll-theme"
+
+group :jekyll_plugins do
+    gem "jekyll-seo-tag", "~> 2.2"
+    ...
+end
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
