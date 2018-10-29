@@ -5,6 +5,7 @@ permalink: /posts/:year/:month/:day/:title/
 
 baseurl: "/clean-jekyll-theme"
 url: ""
+lang: "en"
 
 github_username:  johndoe
 
