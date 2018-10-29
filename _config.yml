@@ -17,7 +17,7 @@ social:
 # Build settings
 markdown: kramdown
 theme: clean-jekyll-theme
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
 exclude:
