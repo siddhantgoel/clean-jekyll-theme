@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "clean-jekyll-theme"
-  spec.version       = "1.0.1"
+  spec.version       = "1.1.0"
   spec.authors       = ["Siddhant Goel"]
-  spec.email         = ["siddhantgoel@gmail.com"]
+  spec.email         = ["me@sgoel.org"]
 
   spec.summary       = "Clean Jekyll theme"
   spec.description   = "A clean theme for Jekyll based on Basscss"
@@ -12,6 +12,6 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").select { |f|
       f.match(/(_data|_includes|_layouts|_plugins|_sass|assets|LICENSE|README)/)
   }
-  spec.add_runtime_dependency "jekyll", "~> 3.3"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.2"
+  spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.5"
 end
