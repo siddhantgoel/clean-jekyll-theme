@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "clean-jekyll-theme"
-  spec.version       = "1.1.0"
+  spec.version       = "1.2.0"
   spec.authors       = ["Siddhant Goel"]
   spec.email         = ["me@sgoel.org"]
 
@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
       f.match(/(_data|_includes|_layouts|_plugins|_sass|assets|LICENSE|README)/)
   }
   spec.add_runtime_dependency "jekyll", "~> 3.8"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.5"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
 end
