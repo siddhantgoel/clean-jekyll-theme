@@ -6,6 +6,6 @@ gemspec
 gem "jekyll", "~> 3.8"
 
 group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.11"
-    gem "jekyll-seo-tag", "~> 2.5"
+    gem "jekyll-feed", "~> 0.12"
+    gem "jekyll-seo-tag", "~> 2.6"
 end
