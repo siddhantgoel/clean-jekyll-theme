@@ -16,7 +16,7 @@ Add the following lines to your Jekyll site's Gemfile:
 gem "clean-jekyll-theme"
 
 group :jekyll_plugins do
-    gem "jekyll-seo-tag", "~> 2.2"
+    gem "jekyll-seo-tag", "~> 2.6"
     ...
 end
 ```
@@ -48,7 +48,7 @@ Or install it yourself as:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/siddhantgoel/clean-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on [Github](https://github.com/siddhantgoel/clean-jekyll-theme).
 
 ## Development
 
